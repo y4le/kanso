@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Kanso layout - Corne 3x6 keyboard",
+    "author": "https://github.com/y4le",
+    "notes": "- base layer\n  - qwerty isn't the ideal layout but we want to make use of existing muscle memory wherever possible\n- number/symbol layer\n  - numbers and symbols use same fingers as normal keyboard for muscle memory\n  - `[]` `{}` `()` `/\\` are on mirrored fingers on home row\n- navigation layer\n  - right hand can use vim keys as arrow keys one handed\n  - left hand is modifiers to be used in conjuntion with arrow keys (e.g. hold \"NAV+d+a\" and press \"l\" to add a word to your selection [\"shift+alt+right\"])\n  - right hand can volup/voldown/play/pause/prev/next one handed\n- mouse layer\n  - mouse key bindings for mouseless navigation\n  - using this regularly is an antipattern and a sign that you need to make better navigation shortcuts",
+    "plate": false,
+    "keyboard-layout-editor": "http://www.keyboard-layout-editor.com/#/gists/adfa7c3cd8f0c6d3a7b9155c6eab1748#file-corne-crkbd_c0psrul3-default-json",
+    "qmk-config": "https://config.qmk.fm/#/crkbd/rev1/LAYOUT"
+  },
+  [
+    {
+      "x": 3,
+      "t": "#000000\n#0000FF\n#008000\n#ff0000"
+    },
+    "E\n3\n3",
+    {
+      "x": 7
+    },
+    "I\n8\n8"
+  ],
+  [
+    {
+      "y": -0.9,
+      "x": 2
+    },
+    "W\n2\n2"
+  ],
+  [
+    {
+      "y": -1,
+      "x": 4
+    },
+    "R\n4\n4",
+    {
+      "x": 5
+    },
+    "U\n7\n7",
+    {
+      "x": 1
+    },
+    "O\n9\n9"
+  ],
+  [
+    {
+      "y": -0.9,
+      "x": 5
+    },
+    "T\n5\n5",
+    {
+      "x": 3
+    },
+    "Y\n6\n6"
+  ],
+  [
+    {
+      "y": -0.9000000000000001,
+      "t": "#000000\n\n\n#ff0000",
+      "fa": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "Esc\n\n\nBoot",
+    {
+      "x": 13,
+      "t": "#000000"
+    },
+    "Bksp"
+  ],
+  [
+    {
+      "y": -0.9999999999999999,
+      "x": 1,
+      "t": "#000000\n#0000FF\n#008000\n#ff0000"
+    },
+    "Q\n1\n1",
+    {
+      "x": 11
+    },
+    "P\n0\n0"
+  ],
+  [
+    {
+      "y": -0.30000000000000004,
+      "x": 3,
+      "t": "#000000\n#0000ff\n#008000\n#ff0000\n\n#ff0000",
+      "a": 0
+    },
+    "D\n{\nAlt\n\n\nright click",
+    {
+      "x": 7,
+      "t": "#000000\n#0000FF\n#008000\n#ff0000\n\n#ff0000"
+    },
+    "K\n}\n▲\n\n\n▲mouse"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 2,
+      "t": "#000000\n#0000FF\n#008000\n#ff0000",
+      "a": 4
+    },
+    "S\n[\nCtrl",
+    {
+      "x": 1,
+      "t": "#000000\n#0000ff\n#008000\n#ff0000\n\n#ff0000",
+      "a": 0
+    },
+    "F\n(\nCmd\n\n\nleft click",
+    {
+      "x": 5,
+      "t": "#000000\n#0000FF\n#008000\n#ff0000\n\n#ff0000"
+    },
+    "J\n)\n▼\n\n\n▼mouse",
+    {
+      "x": 1,
+      "fa": [
+        0,
+        0,
+        2
+      ]
+    },
+    "L\n]\n▶\n\n\n▲mouse"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 5,
+      "t": "#000000\n#0000FF\n#008000",
+      "a": 4,
+      "f": 3
+    },
+    "G\n/\n/",
+    {
+      "x": 3,
+      "t": "#000000\n#0000FF\n#008000\n#ff0000\n\n#ff0000",
+      "a": 0
+    },
+    "H\n\\\n◀\n\n\n◀mouse"
+  ],
+  [
+    {
+      "y": -0.9000000000000001,
+      "c": "#b9b0ff",
+      "t": "#000000\n\n\n#ff0000",
+      "a": 4,
+      "f": 2,
+      "fa": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "Ctrl/Tab\n\n\nRGB Toggle",
+    {
+      "x": 13,
+      "t": "#000000\n#0000ff",
+      "f": 3
+    },
+    "\"\n="
+  ],
+  [
+    {
+      "y": -0.9999999999999996,
+      "x": 1,
+      "c": "#cccccc",
+      "t": "#000000\n#0000FF\n#008000\n#ff0000"
+    },
+    "A\n`\nShift",
+    {
+      "x": 11,
+      "t": "#000000\n#0000ff\n#008000"
+    },
+    "'\n-\nDel"
+  ],
+  [
+    {
+      "y": -0.2999999999999998,
+      "x": 3,
+      "t": "#000000\n#0000FF\n#008000"
+    },
+    "C\n#\n#",
+    {
+      "x": 7,
+      "t": "#000000\n#0000FF\n#008000\n\n#ff0000"
+    },
+    ",\n*\n🔊+\n\n+bright"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 2,
+      "t": "#000000\n#0000FF\n#008000"
+    },
+    "X\n>\n@",
+    {
+      "x": 1
+    },
+    "V\n$\n$",
+    {
+      "x": 5,
+      "t": "#000000\n#0000FF\n#008000\n\n#ff0000"
+    },
+    "M\n&\n🔊-\n\n-bright",
+    {
+      "x": 1,
+      "t": "#000000\n#0000FF\n#008000"
+    },
+    ".\n_\n⏭"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 5
+    },
+    "B\n%\n%",
+    {
+      "x": 3
+    },
+    "N\n^\n⏮"
+  ],
+  [
+    {
+      "y": -0.9000000000000008,
+      "c": "#b9b0ff",
+      "t": "#000000\n\n\n#ff0000",
+      "f": 2,
+      "fa": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "Shift\n\n\nRGB Mode",
+    {
+      "x": 13,
+      "t": "#000000",
+      "f": 3
+    },
+    "Shift"
+  ],
+  [
+    {
+      "y": -0.9999999999999991,
+      "x": 1,
+      "c": "#cccccc",
+      "t": "#000000\n#0000FF\n#008000\n#ff0000"
+    },
+    "Z\n!",
+    {
+      "x": 11,
+      "t": "#000000\n#0000FF\n\n#ff0000"
+    },
+    "/\n+\n🔊"
+  ],
+  [
+    {
+      "y": -0.20000000000000018,
+      "x": 3.5,
+      "c": "#b9b0ff",
+      "t": "#000000\n#0000ff"
+    },
+    "Cmd",
+    {
+      "x": 6,
+      "t": "#000000\n\n#008000"
+    },
+    "Alt\n\n⏯"
+  ],
+  [
+    {
+      "y": -0.09999999999999964,
+      "c": "#cccccc",
+      "t": "#000000",
+      "w": 12,
+      "d": true
+    },
+    "kanso 3x5+1 v2.2\n<tt>github.com/y4le/kanso-layout\n\n\n\n\n<i>Yale Thomas<i>"
+  ],
+  [
+    {
+      "r": 15,
+      "rx": 4.5,
+      "ry": 4.1,
+      "y": -1,
+      "t": "#000000\n#0000FF\n\n\n#ff0000"
+    },
+    "\n⬤\n\n\n⬤"
+  ],
+  [
+    {
+      "r": 30,
+      "rx": 5.4,
+      "ry": 4.3,
+      "y": -1.5,
+      "x": 0.09999999999999964,
+      "t": "#000000",
+      "h": 1.5
+    },
+    "Enter"
+  ],
+  [
+    {
+      "r": -30,
+      "rx": 9.6,
+      "y": -1.5,
+      "x": -1.0999999999999996,
+      "h": 1.5
+    },
+    "Space"
+  ],
+  [
+    {
+      "r": -15,
+      "rx": 10.5,
+      "ry": 4.1,
+      "y": -1,
+      "x": -1,
+      "t": "#000000\n\n#008000\n\n#ff0000"
+    },
+    "\n\n⬤\n\n⬤"
+  ]
+]
